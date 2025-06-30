@@ -82,9 +82,13 @@ Adding New Test Data: To add new test data, create a new JSON file within the te
 
 The project contains api_tests_basics.spec.ts file, which includes list of main checks of response
 
+**9. Assumptions and Notes** <br/>
 
+This project is integrated with Bitbucket Pipelines to ensure continuous validation of API endpoints. This integration, configured via bitbucket-pipelines.yml, ensures continuous quality assurance of the JSONPlaceholder API endpoints.<br/>
+Here is the link to the pipeline:<br/>
+https://bitbucket.org/js_kimkate/kate_s_api_framework/pipelines
 
-**8. Assumptions and Notes** <br/>
+**9. Assumptions and Notes** <br/>
 
 API Availability: It is assumed that the target API (the one being tested) is running and accessible from the environment where the tests are executed.
 Network Connectivity: Stable internet connection is required for fetching dependencies and interacting with external API endpoints.
@@ -94,16 +98,16 @@ VS Code Extensions: For enhanced development experience, consider installing Pla
 
 
 
-**9. Limitations**<br/>
+**10. Limitations**<br/>
 
 Current Limitations:
 This framework currently focuses solely on API testing and does not include UI or performance testing capabilities.
 
 
 
-**10. Troubleshooting**<br/>
+**11. Troubleshooting**<br/>
 
-10.1 VS Code
+11.1 VS Code
 If the command returns error, try next steps:
 Open VS Code via terminal commands:
 Go to the root folder of project
@@ -111,7 +115,7 @@ Go to the root folder of project
 Once u r in a folder, next command will open the project
 code .
 
-10.2 Playwright 
+11.2 Playwright 
 If there are troubles with installation, try next:
 Press Win + S combination,  find PowerShell, open it as administrator, by clicking right-button on the mouse 
 Execute this command 
