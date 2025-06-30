@@ -5,15 +5,10 @@ This repository contains an automated API testing framework built with Node.js a
 **2. Technologies Used**
    
 **Node.js** – Enables you to run JavaScript code outside the browser, and is required to use Playwright and manage dependencies with npm.
-
 **Visual Studio Code** – A lightweight and powerful code editor with support for JavaScript, Node.js, and useful extensions for testing and debugging.
-
 **Playwright module** – The core library that allows you to write and execute automated API (and UI) tests in JavaScript.
-
 **Playwright Test Runner extension** – Adds integration with VS Code to easily run and debug Playwright tests directly from the editor.
-
 **Git** – A version control system that helps track changes in your code, collaborate with others, and push your work to platforms like GitHub.
-
 **Bitbucket** –  Code hosting service where the repository is maintained.
 
 **3. Getting Started**
@@ -30,10 +25,8 @@ In order to check if it`s installed, open the terminal and write “npm -v” or
 3.2 Visual studio
 
 Install VS by the link https://code.visualstudio.com/Download . Once it`s downloaded, start the installation file.  
-
 In installation window accept the agreement -> choose location (no matter if Node.js is on the same disk or not)-> next -> install
 After the program is installed, open it. On the top bar, find Terminal option, click “New Terminal”. On the bottom of a screen command-result window is opened. Type “node -v” command in order to check if VS has no trouble seeing Node.js
-
 If command directory starts with disk C: but VS is on disk D:. , type command “cd…” to go up till its only “C:”, type “D:”, it will switch to the right disk
 
 Keep the program running 
@@ -98,11 +91,16 @@ This framework currently focuses solely on API testing and does not include UI o
 9.1 VS Code
 
 If the command returns error, try next steps:
-      -     Open VS Code via terminal commands:
+Open VS Code via terminal commands:
 Go to the root folder of project
 cd C:\Users\UserName\ProjectName
 Once u r in a folder, next command will open the project
 code .
+
+
+<details>
+
+<summary>Playwright</summary>
 
 9.2 Playwright 
 
@@ -117,3 +115,4 @@ npm init playwright@latest
 Once it`s installed open powerShell again and execute next
 Set-ExecutionPolicy Restricted
 There could be a problem running tests due to lack of permission. In order to fix it, run VS Code as administrator.  
+</details>
