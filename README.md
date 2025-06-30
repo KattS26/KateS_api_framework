@@ -82,11 +82,13 @@ Adding New Test Data: To add new test data, create a new JSON file within the te
 
 The project contains api_tests_basics.spec.ts file, which includes list of main checks of response
 
-**8. Bitbucket pipeline** <br/>
+**8. Bitbucket pipeline and HTML reports** <br/>
 
-This project is integrated with Bitbucket Pipelines to ensure continuous validation of API endpoints. This integration, configured via bitbucket-pipelines.yml, ensures continuous quality assurance of the JSONPlaceholder API endpoints.<br/>
+This project is integrated with Bitbucket Pipelines to ensure continuous validation of API endpoints. Integration, configured via bitbucket-pipelines.yml, ensures continuous quality assurance of the JSONPlaceholder API endpoints.<br/>
 Here is the link to the pipeline:<br/>
-https://bitbucket.org/js_kimkate/kate_s_api_framework/pipelines
+https://bitbucket.org/js_kimkate/kate_s_api_framework/pipelines<br/>
+In order to see HMTL reports, follow the link, download and unpack playwright-report artifacts
+https://bitbucket.org/js_kimkate/kate_s_api_framework/pipelines/results/1/steps/%7B25c54e1e-f62c-4efd-9530-463362b0643b%7D/artifacts
 
 **9. Assumptions and Notes** <br/>
 
