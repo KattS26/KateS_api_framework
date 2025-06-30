@@ -1,4 +1,4 @@
-**1. Introduction**
+#### **1. Introduction**
    
 This repository contains an automated API testing framework built with Node.js and Playwright. Its primary goal is to ensure the reliability and correctness of our backend API services through robust and efficient test automation.
 
