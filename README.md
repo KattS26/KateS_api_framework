@@ -82,7 +82,7 @@ Adding New Test Data: To add new test data, create a new JSON file within the te
 
 The project contains api_tests_basics.spec.ts file, which includes list of main checks of response
 
-**9. Assumptions and Notes** <br/>
+**8. Bitbucket pipeline** <br/>
 
 This project is integrated with Bitbucket Pipelines to ensure continuous validation of API endpoints. This integration, configured via bitbucket-pipelines.yml, ensures continuous quality assurance of the JSONPlaceholder API endpoints.<br/>
 Here is the link to the pipeline:<br/>
