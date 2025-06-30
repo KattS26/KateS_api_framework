@@ -50,6 +50,7 @@ Follow the link to get installation file https://git-scm.com/downloads. Choose y
 Clone the repository:
 
 git clone https://github.com/KattS26/KateS_api_framework.git
+
 cd KateS_api_framework
 
 
