@@ -1,18 +1,20 @@
-image: mcr.microsoft.com/playwright/node:lts
+image: node:22 
 
 pipelines:
   default:
     - step:
-        name: Install Dependencies and Run Playwright API Tests
+        name: Install Dependencies, Install Playwright, and Run API Tests
         caches:
-          - node
+          - node 
         script:
-          - echo "--- Installing Node.js dependencies ---"
+          - echo 
           - npm ci 
-          - echo "--- Installing Playwright browsers and their dependencies ---"
-          - npx playwright install --with-deps
-          - echo "--- Running Playwright API Tests ---"
+          - echo 
+          - npm install -g playwright
+          - playwright install --with-deps
+          - echo 
           - npx playwright test --reporter=html
+
         artifacts:
           - playwright-report/**
           - test-results/**
