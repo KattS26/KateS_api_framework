@@ -90,6 +90,10 @@ https://bitbucket.org/js_kimkate/kate_s_api_framework/pipelines<br/>
 In order to see HMTL reports, follow the link, download and unpack playwright-report artifacts
 https://bitbucket.org/js_kimkate/kate_s_api_framework/pipelines/results/1/steps/%7B25c54e1e-f62c-4efd-9530-463362b0643b%7D/artifacts
 
+Here is an example of HTML reposts
+![image](https://github.com/user-attachments/assets/e8ebbedc-13f3-4817-94d8-cee99867e53e)
+
+
 **9. Assumptions and Notes** <br/>
 
 API Availability: It is assumed that the target API (the one being tested) is running and accessible from the environment where the tests are executed.
