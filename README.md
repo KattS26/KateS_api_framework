@@ -20,12 +20,12 @@ This section will guide you through setting up the project and getting the tests
 Follow the link https://nodejs.org/en/download , download latest version by. You will find it under a block with code for PowerShall, green button “Windows Installer(.msi)”,  click on it.
 Once File  node-*version_number*-x64.msi  is downloaded, find it in the download folder(or any place it was saved in) and click on it.
 Node.js Setup window should be opened, click next -> agree with conditions -> select a place it to be saved in (There is no difference on which disk) -> next -> Check “Automatically install necessary tools” and click next -> click install -> once installation is done, click finish.
-In order to check if it`s installed, open the terminal and write “npm -v” or “node -v”, as a result you should see the version number as a result.
+In order to check if it`s installed, open the terminal and write ```“npm -v” ```or ```“node -v”```, as a result you should see the version number as a result.
 
 3.2 Visual studio
 Install VS by the link https://code.visualstudio.com/Download . Once it`s downloaded, start the installation file.  
 In installation window accept the agreement -> choose location (no matter if Node.js is on the same disk or not)-> next -> install
-After the program is installed, open it. On the top bar, find Terminal option, click “New Terminal”. On the bottom of a screen command-result window is opened. Type “node -v” command in order to check if VS has no trouble seeing Node.js
+After the program is installed, open it. On the top bar, find Terminal option, click “New Terminal”. On the bottom of a screen command-result window is opened. Type ```“node -v”``` command in order to check if VS has no trouble seeing Node.js
 If command directory starts with disk C: but VS is on disk D:. , type command “cd…” to go up till its only “C:”, type “D:”, it will switch to the right disk
 
 Keep the program running 
@@ -42,16 +42,16 @@ To the following question reply next:
 On the left vertical menu, open Extensions. Find and download Playwright Test for VSCode. Install the extention
 
 3.5 Git
-Follow the link to get installation file https://git-scm.com/downloads. Choose you OS. Follow the installation process. Once it`s install, you can check common command by typing “git” in terminal
+Follow the link to get installation file https://git-scm.com/downloads. Choose you OS. Follow the installation process. Once it`s install, you can check common command by typing ```“git”``` in terminal
 
 
 
 **4. Download the project**
 Clone the repository:
-
-git clone https://github.com/KattS26/KateS_api_framework.git
-
-cd KateS_api_framework
+first:
+```git clone https://github.com/KattS26/KateS_api_framework.git```
+then:
+```cd KateS_api_framework```
 
 
 
@@ -94,18 +94,16 @@ This framework currently focuses solely on API testing and does not include UI o
 
 **10. Troubleshooting**
 10.1 VS Code
-
 If the command returns error, try next steps:
 Open VS Code via terminal commands:
 Go to the root folder of project
-cd C:\Users\UserName\ProjectName
+```cd C:\Users\UserName\ProjectName```
 Once u r in a folder, next command will open the project
 code .
 
 
 
 10.2 Playwright 
-
 If there are troubles with installation, try next:
 Press Win + S combination,  find PowerShell, open it as administrator, by clicking right-button on the mouse 
 Execute this command 
@@ -113,7 +111,7 @@ Set-ExecutionPolicy RemoteSigned
 Once you see a question, type Y 
 Close and re-open as administrator VS code 
 In VS Code open terminal and execute the command 
-npm init playwright@latest
+```npm init playwright@latest```
 Once it`s installed open powerShell again and execute next
 Set-ExecutionPolicy Restricted
 There could be a problem running tests due to lack of permission. In order to fix it, run VS Code as administrator.  
