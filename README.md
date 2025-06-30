@@ -4,12 +4,12 @@ This repository contains an automated API testing framework built with Node.js a
 
 
 **2. Technologies Used**
-```**Node.js** – Enables you to run JavaScript code outside the browser, and is required to use Playwright and manage dependencies with npm.```
-```**Visual Studio Code** – A lightweight and powerful code editor with support for JavaScript, Node.js, and useful extensions for testing and debugging.```
-```**Playwright module** – The core library that allows you to write and execute automated API (and UI) tests in JavaScript.```
-```**Playwright Test Runner extension** – Adds integration with VS Code to easily run and debug Playwright tests directly from the editor.```
-```**Git** – A version control system that helps track changes in your code, collaborate with others, and push your work to platforms like GitHub.```
-```**Bitbucket** –  Code hosting service where the repository is maintained.```
+**Node.js** – Enables you to run JavaScript code outside the browser, and is required to use Playwright and manage dependencies with npm.<br/>
+**Visual Studio Code** – A lightweight and powerful code editor with support for JavaScript, Node.js, and useful extensions for testing and debugging.<br/>
+**Playwright module** – The core library that allows you to write and execute automated API (and UI) tests in JavaScript.<br/>
+**Playwright Test Runner extension** – Adds integration with VS Code to easily run and debug Playwright tests directly from the editor.<br/>
+**Git** – A version control system that helps track changes in your code, collaborate with others, and push your work to platforms like GitHub.<br/>
+**Bitbucket** –  Code hosting service where the repository is maintained.<br/>
 
 
 
