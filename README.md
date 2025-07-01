@@ -1,6 +1,6 @@
 #### **1. Introduction**<br/>
 
-This repository contains an automated API testing framework built with Node.js and Playwright. Its primary goal is to ensure the reliability and correctness of our backend API services through robust and efficient test automation.
+This repository contains an automated API testing framework built with Node.js and Playwright. Its primary goal is to ensure the reliability and correctness of our backend API services through robust and efficient test automation.<br/>
 
 
 
@@ -29,7 +29,7 @@ In order to check if it`s installed, open the terminal and write ```“npm -v”
 Install VS by the link https://code.visualstudio.com/Download . Once it`s downloaded, start the installation file.  
 In installation window accept the agreement -> choose location (no matter if Node.js is on the same disk or not)-> next -> install
 After the program is installed, open it. On the top bar, find Terminal option, click “New Terminal”. On the bottom of a screen command-result window is opened. Type ```“node -v”``` command in order to check if VS has no trouble seeing Node.js
-If command directory starts with disk C: but VS is on disk D:. , type command “cd…” to go up till its only “C:”, type “D:”, it will switch to the right disk
+If command directory starts with disk C: but VS is on disk D:. , type command ```cd…``` to go up till its only “C:”, type “D:”, it will switch to the right disk
 
 Keep the program running 
 
@@ -62,10 +62,10 @@ After, run:<br/>
 **5. Run the Tests**<br/>
 
 The framework uses Playwright for test execution.<br/>
-There are several ways of running tests. The easiest one is to navigate to “tests” on the left vertical menu. Once you are there, dive into  src/tests/api folder. <br/>
+There are several ways of running tests. The easiest one is to navigate to “tests” on the left vertical menu. Once you are there, dive into  ```src/tests/api``` folder. <br/>
 
-Run a folder: Hovering on the api/ folder, will show you a play button. Once its clicked the test in  will be running <br/>
-Run a test file: Hovering on a test_name.spec.ts file, will show you a play button. Once its clicked the test will be running <br/>
+Run a folder: Hovering on the ```api/``` folder, will show you a play button. Once its clicked the test in  will be running <br/>
+Run a test file: Hovering on a ```test_name.spec.ts``` file, will show you a play button. Once its clicked the test will be running <br/>
 Run 1 test inside test file: on the left side of the file name, there is a button which opens list of tests inside the file, so you can run separate test <br/>
 
 
@@ -74,21 +74,21 @@ Run 1 test inside test file: on the left side of the file name, there is a butto
 
 Location: Test data files are located in the ```src/tests/api/test_data``` directory.<br/>
 Format: Test data is structured in JSON files. Each JSON file represents a specific request payload.<br/>
-Adding New Test Data: To add new test data, create a new JSON file within the test_data/ directory, ensuring it follows the existing schema and naming conventions for clarity and consistency.<br/>
+Adding New Test Data: To add new test data, create a new JSON file within the ```test_data/``` directory, ensuring it follows the existing schema and naming conventions for clarity and consistency.<br/>
 
 
 
 **7. API tests example file**<br/>
 
-The project contains api_tests_basics.spec.ts file, which includes list of main checks of response
+The project contains api_tests_basics.spec.ts file, which includes list of main checks of response<br/>
 
 **8. Bitbucket pipeline and HTML reports** <br/>
 
 This project is integrated with Bitbucket Pipelines to ensure continuous validation of API endpoints. Integration, configured via bitbucket-pipelines.yml, ensures continuous quality assurance of the JSONPlaceholder API endpoints.<br/>
 Here is the link to the pipeline:<br/>
 https://bitbucket.org/js_kimkate/kate_s_api_framework/pipelines<br/>
-In order to see HMTL reports, follow the link, download and unpack playwright-report artifacts
-https://bitbucket.org/js_kimkate/kate_s_api_framework/pipelines/results/1/steps/%7B25c54e1e-f62c-4efd-9530-463362b0643b%7D/artifacts
+In order to see HMTL reports, follow the link, download and unpack ```playwright-report artifacts```<br/>
+https://bitbucket.org/js_kimkate/kate_s_api_framework/pipelines/results/1/steps/%7B25c54e1e-f62c-4efd-9530-463362b0643b%7D/artifacts<br/>
 
 Here is an example of HTML reposts
 ![image](https://github.com/user-attachments/assets/e8ebbedc-13f3-4817-94d8-cee99867e53e)
@@ -96,11 +96,8 @@ Here is an example of HTML reposts
 
 **9. Assumptions and Notes** <br/>
 
-API Availability: It is assumed that the target API (the one being tested) is running and accessible from the environment where the tests are executed.
-Network Connectivity: Stable internet connection is required for fetching dependencies and interacting with external API endpoints.
-Idempotency: Where possible, tests are designed to be idempotent, meaning they can be run multiple times without causing unintended side effects on the API or its data.
-VS Code Extensions: For enhanced development experience, consider installing Playwright extension for VS Code.
-
+API Availability: The target API (```https://jsonplaceholder.typicode.com/```) should berunning and accessible from the environment where the tests are executed.<br/>
+Network Connectivity: Stable internet connection is required for fetching dependencies and interacting with external API endpoints.<br/>
 
 
 
@@ -114,23 +111,13 @@ This framework currently focuses solely on API testing and does not include UI o
 **11. Troubleshooting**<br/>
 
 11.1 VS Code
-If the command returns error, try next steps:
-Open VS Code via terminal commands:
-Go to the root folder of project
-```cd C:\Users\UserName\ProjectName```
-Once u r in a folder, next command will open the project
-code .
+If the command returns error, try next steps:<br/>
+Open VS Code via terminal commands:<br/>
+Go to the root folder of project<br/>
+```cd C:\Users\UserName\ProjectName```<br/>
+Once you are in a folder, next command will open the project<br/>
+```code .```<br/>
 
 11.2 Playwright 
-If there are troubles with installation, try next:
-Press Win + S combination,  find PowerShell, open it as administrator, by clicking right-button on the mouse 
-Execute this command 
-Set-ExecutionPolicy RemoteSigned
-Once you see a question, type Y 
-Close and re-open as administrator VS code 
-In VS Code open terminal and execute the command 
-```npm init playwright@latest```
-Once it`s installed open powerShell again and execute next
-Set-ExecutionPolicy Restricted
-There could be a problem running tests due to lack of permission. In order to fix it, run VS Code as administrator.  
+There could be a problem running tests due to lack of permission. In order to fix it, run VS Code as administrator.  <br/>
 
