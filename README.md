@@ -1,21 +1,22 @@
-#### **1. Introduction**<br/>
+## 1. Introduction<br/>
 
-This repository contains an automated API testing framework built with Node.js and Playwright. Its primary goal is to ensure the reliability and correctness of our backend API services through robust and efficient test automation.<br/>
+This repository contains an automated API testing framework built with Node.js and Playwright. Its primary goal is to ensure the reliability and correctness of backend API services through robust and efficient test automation.<br/>
+https://jsonplaceholder.typicode.com/ - is the baseURL that is beeing tested<br/>
 
 
 
-**2. Technologies Used**<br/>
+## 2. Technologies Used <br/>
 
 **Node.js** – Enables you to run JavaScript code outside the browser, and is required to use Playwright and manage dependencies with npm.<br/>
 **Visual Studio Code** – A lightweight and powerful code editor with support for JavaScript, Node.js, and useful extensions for testing and debugging.<br/>
 **Playwright module** – The core library that allows you to write and execute automated API (and UI) tests in JavaScript.<br/>
 **Playwright Test Runner extension** – Adds integration with VS Code to easily run and debug Playwright tests directly from the editor.<br/>
-**Git** – A version control system that helps track changes in your code, collaborate with others, and push your work to platforms like GitHub.<br/>
+**Git** – A version control system that helps track changes in your code, collaborate with others.<br/>
 **Bitbucket** –  Code hosting service where the repository is maintained.<br/>
 
 
 
-**3. Getting Started**<br/>
+## 3. Getting Started<br/>
 
 This section will guide you through setting up the project and getting the tests running on your local machine.
 
