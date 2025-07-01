@@ -33,13 +33,6 @@ If command directory starts with disk C: but VS is on disk D:. , type command �
 
 Keep the program running 
 
-3.3 Playwright module<br/>
-Follow the link https://playwright.dev/docs/intro . Under “Installing Playwright” section, you`ll see NPM command, copy it. Go back to VS Code, open Terminal and insert copied command and execute it
-To the following question reply next:
-1) TypeScript
-2) tests
-3) false
-4) true
 
 3.4  Playwright runner<br/>
 On the left vertical menu, open Extensions. Find and download Playwright Test for VSCode. Install the extention
@@ -48,8 +41,11 @@ On the left vertical menu, open Extensions. Find and download Playwright Test fo
 Follow the link to get installation file https://git-scm.com/downloads. Choose you OS. Follow the installation process. Once it`s install, you can check common command by typing ```“git”``` in terminal
 
 
-
 **4. Download the project**<br/>
+
+Open terminal (Linux/macOS) or Git Bash / PowerShell / Command Prompt (Windows).<br/>
+Go to the folder you want the project to be downloaded in <br/>
+```cd folder_name/Project_folder```
 
 Clone the repository:
 first:
@@ -57,6 +53,10 @@ first:
 then:
 ```cd KateS_api_framework```
 
+Since the project already contains all necessary files and dependencies for Playwright, the only thing you need to do is to run next commands:<br/>
+```npm install ```<br/> 
+After, run:<br/>
+```npx playwright install --with-deps```<br/>
 
 
 **5. Run the Tests**<br/>
