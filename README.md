@@ -42,7 +42,7 @@ On the left vertical menu, open Extensions. Find and download Playwright Test fo
 Follow the link to get installation file https://git-scm.com/downloads. Choose you OS. Follow the installation process. Once it`s install, you can check common command by typing ```“git”``` in terminal
 
 
-**4. Download the project**<br/>
+## 4. Download the project<br/>
 
 Open terminal (Linux/macOS) or Git Bash / PowerShell / Command Prompt (Windows).<br/>
 Go to the folder you want the project to be downloaded in <br/>
@@ -60,7 +60,7 @@ After, run:<br/>
 ```npx playwright install --with-deps```<br/>
 
 
-**5. Run the Tests**<br/>
+## 5. Run the Tests <br/>
 
 The framework uses Playwright for test execution.<br/>
 There are several ways of running tests. The easiest one is to navigate to “tests” on the left vertical menu. Once you are there, dive into  ```src/tests/api``` folder. <br/>
@@ -71,7 +71,7 @@ Run 1 test inside test file: on the left side of the file name, there is a butto
 
 
 
-**6. Test Data Structure**<br/>
+## 6. Test Data Structure <br/>
 
 Location: Test data files are located in the ```src/tests/api/test_data``` directory.<br/>
 Format: Test data is structured in JSON files. Each JSON file represents a specific request payload.<br/>
@@ -79,11 +79,11 @@ Adding New Test Data: To add new test data, create a new JSON file within the ``
 
 
 
-**7. API tests example file**<br/>
+## 7. API tests example file<br/>
 
 The project contains api_tests_basics.spec.ts file, which includes list of main checks of response<br/>
 
-**8. Bitbucket pipeline and HTML reports** <br/>
+## 8. Bitbucket pipeline and HTML reports <br/>
 
 This project is integrated with Bitbucket Pipelines to ensure continuous validation of API endpoints. Integration, configured via bitbucket-pipelines.yml, ensures continuous quality assurance of the JSONPlaceholder API endpoints.<br/>
 Here is the link to the pipeline:<br/>
@@ -95,21 +95,21 @@ Here is an example of HTML reposts
 ![image](https://github.com/user-attachments/assets/e8ebbedc-13f3-4817-94d8-cee99867e53e)
 
 
-**9. Assumptions and Notes** <br/>
+## 9. Assumptions and Notes<br/>
 
 API Availability: The target API (```https://jsonplaceholder.typicode.com/```) should berunning and accessible from the environment where the tests are executed.<br/>
 Network Connectivity: Stable internet connection is required for fetching dependencies and interacting with external API endpoints.<br/>
 
 
 
-**10. Limitations**<br/>
+## 10. Limitations<br/>
 
 Current Limitations:
 This framework currently focuses solely on API testing and does not include UI or performance testing capabilities.
 
 
 
-**11. Troubleshooting**<br/>
+## 11. Troubleshooting<br/>
 
 11.1 VS Code
 If the command returns error, try next steps:<br/>
