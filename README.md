@@ -61,20 +61,20 @@ then:
 
 **5. Run the Tests**<br/>
 
-The framework uses Playwright for test execution.
-There are several ways of running tests. The easiest one is to navigate to “tests” on the left vertical menu. Once you are there, dive into  src/tests/api folder. 
+The framework uses Playwright for test execution.<br/>
+There are several ways of running tests. The easiest one is to navigate to “tests” on the left vertical menu. Once you are there, dive into  src/tests/api folder. <br/>
 
-Run a folder: Hovering on the api/ folder, will show you a play button. Once its clicked the test in  will be running 
-Run a test file: Hovering on a test_name.spec.ts file, will show you a play button. Once its clicked the test will be running 
-Run 1 test inside test file: on the left side of the file name, there is a button which opens list of tests inside the file, so you can run separate test 
+Run a folder: Hovering on the api/ folder, will show you a play button. Once its clicked the test in  will be running <br/>
+Run a test file: Hovering on a test_name.spec.ts file, will show you a play button. Once its clicked the test will be running <br/>
+Run 1 test inside test file: on the left side of the file name, there is a button which opens list of tests inside the file, so you can run separate test <br/>
 
 
 
 **6. Test Data Structure**<br/>
 
-Location: Test data files are located in the src/tests/api/test_data directory.
-Format: Test data is structured in JSON files. Each JSON file represents a specific request payload.
-Adding New Test Data: To add new test data, create a new JSON file within the test_data/ directory, ensuring it follows the existing schema and naming conventions for clarity and consistency.
+Location: Test data files are located in the ```src/tests/api/test_data``` directory.<br/>
+Format: Test data is structured in JSON files. Each JSON file represents a specific request payload.<br/>
+Adding New Test Data: To add new test data, create a new JSON file within the test_data/ directory, ensuring it follows the existing schema and naming conventions for clarity and consistency.<br/>
 
 
 
