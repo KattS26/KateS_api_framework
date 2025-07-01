@@ -22,7 +22,7 @@ This section will guide you through setting up the project and getting the tests
 
 3.1 Node.js<br/>
 Follow the link https://nodejs.org/en/download , download latest version by. You will find it under a block with code for PowerShall, green button “Windows Installer(.msi)”,  click on it.
-Once File  node-*version_number*-x64.msi  is downloaded, find it in the download folder(or any place it was saved in) and click on it.
+Once File  ```node-*version_number*-x64.msi```  is downloaded, find it in the download folder(or any place it was saved in) and click on it.
 Node.js Setup window should be opened, click next -> agree with conditions -> select a place it to be saved in (There is no difference on which disk) -> next -> Check “Automatically install necessary tools” and click next -> click install -> once installation is done, click finish.
 In order to check if it`s installed, open the terminal and write ```“npm -v” ```or ```“node -v”```, as a result you should see the version number as a result.
 
@@ -30,13 +30,13 @@ In order to check if it`s installed, open the terminal and write ```“npm -v”
 Install VS by the link https://code.visualstudio.com/Download . Once it`s downloaded, start the installation file.  
 In installation window accept the agreement -> choose location (no matter if Node.js is on the same disk or not)-> next -> install
 After the program is installed, open it. On the top bar, find Terminal option, click “New Terminal”. On the bottom of a screen command-result window is opened. Type ```“node -v”``` command in order to check if VS has no trouble seeing Node.js
-If command directory starts with disk C: but VS is on disk D:. , type command ```cd…``` to go up till its only “C:”, type “D:”, it will switch to the right disk
+If command directory starts with disk C: but VS is on disk D:. , type command ```cd…``` to go up till its only “C:”, type ```D:```, it will switch to the right disk
 
 Keep the program running 
 
 
 3.4  Playwright runner<br/>
-On the left vertical menu, open Extensions. Find and download Playwright Test for VSCode. Install the extention
+On the left vertical menu, open Extensions. Find and download "Playwright Test for VSCode". Install the extention
 
 3.5 Git<br/>
 Follow the link to get installation file https://git-scm.com/downloads. Choose you OS. Follow the installation process. Once it`s install, you can check common command by typing ```“git”``` in terminal
@@ -81,7 +81,7 @@ Adding New Test Data: To add new test data, create a new JSON file within the ``
 
 ## 7. API tests example file<br/>
 
-The project contains api_tests_basics.spec.ts file, which includes list of main checks of response<br/>
+The project contains ```api_tests_basics.spec.ts``` file, which includes list of main checks of response<br/>
 
 ## 8. Bitbucket pipeline and HTML reports <br/>
 
@@ -104,8 +104,7 @@ Network Connectivity: Stable internet connection is required for fetching depend
 
 ## 10. Limitations<br/>
 
-Current Limitations:
-This framework currently focuses solely on API testing and does not include UI or performance testing capabilities.
+Current Limitations: This framework currently focuses solely on API testing and does not include UI or performance testing capabilities.<br/>
 
 
 
