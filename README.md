@@ -82,7 +82,7 @@ Adding New Test Data: To add new test data, create a new JSON file within the ``
 
 The project contains ```api_tests_basics.spec.ts``` file, which includes list of main checks of response<br/>
 
-In ```/src/docs/``` contains  ```test-cases.md``` file, with detailed documentation including "Test case name", "Description", "Precondition", "Steps", "Expected result" for ```api-positive_tests.spec.ts``` and ```api_negative_tests.spec.ts``` test files.<br/>
+```/src/docs/``` contains  ```test-cases.md``` file, with detailed documentation including "Test case name", "Description", "Precondition", "Steps", "Expected result" for ```api-positive_tests.spec.ts``` and ```api_negative_tests.spec.ts``` test files.<br/>
 
 
 ## 8. Bitbucket pipeline and HTML reports <br/>
